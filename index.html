@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
+    <style>
+        h1 {background-color: transparent ;}
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="">
+            <a href="./index.html">
                 <img src="./imeges/logo.svg" alt="Логотип сучасної пекарні">
                 </a>
             
              <ul> 
-                <li><a href="#">Франшиза</a></li>
-                <li><a href="#">Наші традиції</a></li>  
-                <li><a href="#">Формати</a></li>  
-                <li><a href="#">Контакти</a></li>
+                <li><a class="link" href="#traditions-section">Наші традиції</a></li>
+                <li><a class="link" href="#chefs-section">Шеф кухар</a></li>  
+                <li><a class="link" href="#formats-section">Формати</a></li>  
+                <li><a class="link" href="#">Контакти</a></li>
              </ul>
         </nav>
-        <button type="button">Замовити дзвінок</button>
+        <button class="button" type="button">Замовити дзвінок</button>
     </header>
     <main>
     <section>
-        <h1>Сучасна пекарня</h1>
-    </section>
-    <section>
-        <ul><li>Великий попит на ринку</li>
+            <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
+            </section>
+    <section id="traditions-section">
+        <ul class="advantages-list">
+        <li>Великий попит на ринку</li>
         <li>Доступні за бюджетом формати</li>
         <li>Досвідчена управлінська команда</li>
-
         </ul>
-        <h2>Новий формат традицій</h2>
+        <h2 class="section-title">Новий формат традицій</h2>
         <p>
             <Span>Shop bakery</Span> - ця пекарня взяла все найкраще і зберігла смак традиційної випічки та натуральність інгредієнтів</p>
             <p>Ми працюємо як найвідоміші мережі — 
@@ -41,9 +45,9 @@
         <img src="./imeges/baker-man.jpg" 
         alt="Чоловік пекар дивиться на батони із посмішкою">
     </section>
-    <section>
-        <h2>Наші найкращі шеф-кухарі</h2>
-        <ul>
+    <section id="chefs-section">
+        <h2 class="section-title"><span> Наші найкращі <span class="accent"> шеф-кухарі</h2>
+                <ul>
             <li>
                 <article>
                     <h3>Настя</h3>
@@ -53,8 +57,7 @@
                     у життя цікаві та смачні ідеї.</p>
                     <p>Я випічу для вас
                     найсмачніщі вироби!</p>
-                    </p>
-                </article>
+                 </article>
             </li>
             <li>
                 <article>
@@ -64,15 +67,14 @@
                     <p>Мій кодитерський стаж вже 18 років. SHOP BEKERY - це наша любов, з якою ми ділимось кожен раз з Вами через нашу
                         випічку!</p>
                     <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
-                    </p>
-                </article>
+                 </article>
             </li>
-        </ul>       
-     </section>
-    </section>
-    <section>
-        <h2>Формати</h2>
-        <ul>
+        </ul>
+    <section>       
+     <section id="formats-section">
+      
+        <h2 class="section-title">Формати</h2>
+                <ul>
             <Li>
                 <article>
             <h3> Walrus</h3>
@@ -83,20 +85,26 @@
             <Li><article>
                 <h3>Hendlebar</h3>
             </article></Li>
-        </ul>            
-     
+        </ul>         
+    
     </section>
     <section>
-        <h2>Прєднуйтеся до мережі пекарень</h2>
+        <h2 class="section-title">Прєднуйтеся до мережі пекарень</h2>
+        <iframe id="inlineFrameExample" 
+        title="Inline Frame Example" 
+        width="605" 
+        height="594"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2173.030604418993!2d30.4912733!3d50.4566776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e1!3m2!1suk!2sua!4v1763984561191!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
     </section>
-    </main>
+    <main>
     <footer>
        <nav><a href="#">
     <img src="./imeges/logo.svg" alt="Логотип сучасної пекарні">
     </a>
     <ul>
-        <li><a href="#">Франшиза</a></li>
         <li><a href="#">Наші традиції</a></li>
+        <li><a href="#">шеф-кухарі</a></li>
         <li><a href="#">Формати</a></li>
         <li><a href="#">Контакти</a></li>
     </ul>
@@ -105,7 +113,7 @@
         <ul>
             <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
             <li><a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
-            <li><a href="https://maps.app.goo.gl/wmZorrJntYKK9gJ96"target="_blank">Україна, м. Київ, вул. Січових Стрільців 54</a></li>
+            <li><a href="https://maps.app.goo.gl/wmZorrJntYKK9gJ96" target="_blank">Україна, м. Київ, вул. Січових Стрільців 54</a></li>
             <li><a href="#">
               <!-- facebook icon -->
             </a>
@@ -115,7 +123,7 @@
             </a></li>
         </ul>
         <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>© 2023 Дані захищені</p>
+        <p>&copy; 2023 Дані захищені</p>
     </address>
     </footer>
 </body>
